@@ -34,7 +34,7 @@ describe('Get API tests using supertest', () => {
 			.end(function (err, res) {
 				expect(res.statusCode).to.be.equal(200);
 				expect(res.body.id).to.be.equal(1);
-				done();
+				done(); 
 			});
 	});
 });
